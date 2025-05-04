@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+/*! -------------------------------------- */
+@import "tailwindcss";
+
+/*! -------------------------------------- */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --main-bg-color: #fafbfb;
+  --main-dark-bg-color: #20232a;
+  --secondary-dark-bg-color: #33373e;
+  --light-gray-color: #f7f7f7;
+  --half-transparent-color: rgba(0, 0, 0, 0.5);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --font-display: "Open Sans", sans-serif;
+  --text-14: 14px;
+  --spacing-400: 400px;
+  --spacing-760: 760px;
+  --spacing-780: 780px;
+  --spacing-800: 800px;
+  --spacing-1000: 1000px;
+  --spacing-1200: 1200px;
+  --spacing-1400: 1400px;
+  --spacing-80h: 80px;
+  --spacing-590h: 590px;
+  --background-image-heroPattern: url("https://i.ibb.co/MkvLDfb/Rectangle-4389.png");
+}
+/* @theme {
+  --font-display: "Open Sans", sans-serif;
+  --text-14: 14px;
+  --color-main-bg: #fafbfb;
+  --color-main-dark-bg: #20232a;
+  --color-secondary-dark-bg: #33373e;
+  --color-light-gray: #f7f7f7;
+  --color-half-transparent: rgba(0, 0, 0, 0.5);
+  --color-border: rgba(0, 0, 0, 0.1);
+  --spacing-400: 400px;
+  --spacing-760: 760px;
+  --spacing-780: 780px;
+  --spacing-800: 800px;
+  --spacing-1000: 1000px;
+  --spacing-1200: 1200px;
+  --spacing-1400: 1400px;
+  --spacing-80h: 80px;
+  --spacing-590h: 590px;
+  --background-image-heroPattern: url("https://i.ibb.co/MkvLDfb/Rectangle-4389.png");
+} */
+/*! -------------------------------------- */
+
+/*! -------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
